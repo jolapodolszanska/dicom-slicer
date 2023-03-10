@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 from sklearn.cluster import KMeans
 
-PathDicom = "./MyHead/"
+PathDicom = "./MyHead dataset/"
 lastFilesDCM = []  
 for dirName, subdirList, fileList in os.walk(PathDicom):
     for filename in fileList:
